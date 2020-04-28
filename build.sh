@@ -1,0 +1,1 @@
+java -cp target/journal-0.1.0.jar com.github.christiancastillo.journal.MainMenu
