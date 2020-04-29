@@ -1,4 +1,6 @@
 create table journal(
-	dateandtime varchar,
-	entry varchar
+	id serial primary key,
+	dat varchar,
+	tim varchar,
+	entr varchar
 );
