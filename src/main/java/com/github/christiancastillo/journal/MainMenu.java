@@ -14,15 +14,15 @@ public class MainMenu{
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("M/d/y HH:mm");
      
         System.out.println("Today is: " + LocalDateTime.now().format(dateTimeFormatter));
-        System.out.println("---------------------------");
-        System.out.println("          JOURNAL");
-        System.out.println("---------------------------");
+        System.out.println("----------------------------------------------------------");
+        System.out.println("                        JOURNAL");
+        System.out.println("----------------------------------------------------------");
         System.out.println("1. New Entry");
         System.out.println("2. View Past Entries");
         System.out.println("3. Complete Habits");
         System.out.println("4. Add New Habit");
         System.out.println("5. Exit");
-        System.out.println("---------------------------");
+        System.out.println("----------------------------------------------------------");
            
         Scanner in = new Scanner(System.in);
         System.out.println("Select Option: ");

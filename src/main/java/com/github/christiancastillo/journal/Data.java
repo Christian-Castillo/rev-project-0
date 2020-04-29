@@ -203,7 +203,7 @@ public class Data {
                         loop2=1;
                     }
                     else{
-                        System.out.println("You've Already Completed That Today.");
+                        //System.out.println("You've Already Completed That Today.");
                         loop2=1;
                     }
 
